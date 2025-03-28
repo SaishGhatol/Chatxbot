@@ -1,0 +1,23 @@
+<!-- black-bg-white-doctor.svg -->
+<svg
+  width="200"
+  height="200"
+  viewBox="0 0 200 200"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Black Background -->
+  <rect width="200" height="200" fill="#000000" />
+
+  <!-- Doctor Icon (circle head + body + cross) in white -->
+  <!-- Head -->
+  <circle cx="100" cy="60" r="20" fill="#FFFFFF" />
+
+  <!-- Body rectangle -->
+  <rect x="80" y="80" width="40" height="60" fill="#FFFFFF" rx="6" />
+
+  <!-- Simple "medical cross" on the body -->
+  <!-- Horizontal bar of the cross -->
+  <rect x="88" y="105" width="24" height="6" fill="#000000" />
+  <!-- Vertical bar of the cross -->
+  <rect x="97" y="96" width="6" height="24" fill="#000000" />
+</svg>
