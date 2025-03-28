@@ -9,8 +9,8 @@ import { ThemeProvider, ThemeContext } from "./ThemeContext"; // Import ThemePro
 import "./App.css";
 import ForgotPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/ResetPassword";
-import VerifyEmail from "./pages/VerifyEmail";
 import {AccountProvider} from "./context/AccountProvider";
+import VerifyEmail from "./pages/VerifyEmail";
 import { ChatProvider } from './context/ChatContext';
 function App() {
   const [chats, setChats] = useState([]); // Store all chats
